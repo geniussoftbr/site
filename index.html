@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Site</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+        body {
+            background-color: #222; 
+            color: #fff;
+            font-family: 'Amatic SC', cursive; 
+            text-align: center;
+            padding: 40px; 
+            margin: 0; 
+            height: 100vh; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+        }
+
+        h1, p {
+            margin: 15px 0; 
+            line-height: 1.6; 
+        }
+
+        h1 {
+            font-size: 5em; 
+            color: #00ffff; 
+        }
+
+        p {
+            font-size: 2.5em; 
+        }
+
+        .spinner {
+            border: 7.2px solid rgba(255, 255, 255, 0.3); 
+            border-radius: 50%; 
+            border-top: 7.2px solid #fff; 
+            width: 72px; 
+            height: 72px;
+            margin: 15px 0; 
+            animation: spin 1s linear infinite; 
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Seja Bem-vindo!</h1>
+    <p>Site em construção.</p>
+    <p>A página está sendo desenvolvida.</p>
+    <div class="spinner"></div>
+</body>
+</html>
